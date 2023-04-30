@@ -22,6 +22,11 @@ const router = createRouter({
       component: IntroComponentVue
     },
     {
+      path: '/',
+      name: 'home',
+      component: IntroComponentVue
+    },
+    {
       path: '/Definition',
       name: 'Definition',
       component: () => import('@/components/DefinitionComponent.vue')
