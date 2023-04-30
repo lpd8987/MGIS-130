@@ -2,8 +2,9 @@
   "name": "video-telepresence",
   "version": "0.0.0",
   "private": true,
+  "main": "./src/main.ts",
   "scripts": {
-    "start": "npm run dev",
+    "start": "node ./src/main.ts",
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
