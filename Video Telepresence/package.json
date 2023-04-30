@@ -4,7 +4,6 @@
   "private": true,
   "main": "./src/main.ts",
   "scripts": {
-    "start": "node ./src/main.ts",
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
