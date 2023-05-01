@@ -44,7 +44,7 @@ export default defineComponent({
                     <h1 id="currentPageH1" class="navbar-link">{{ currentPage }}</h1>
 
                     <div class="navbar-dropdown is-right">
-                        <RouterLink @click="setCurrentPage('Introduction')" class="navbar-item" to="home">Introduction</RouterLink>
+                        <RouterLink @click="setCurrentPage('Introduction')" class="navbar-item" to="/">Introduction</RouterLink>
                         <RouterLink @click="setCurrentPage('Definition')" class="navbar-item" to="Definition">Definition</RouterLink>
                         <RouterLink @click="setCurrentPage('Overview')" class="navbar-item" to="Overview">Overview</RouterLink>
                         <RouterLink @click="setCurrentPage('Current and Future')" class="navbar-item" to="Current-and-Future">Current and Future</RouterLink>

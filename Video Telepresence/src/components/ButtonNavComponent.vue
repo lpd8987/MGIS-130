@@ -53,7 +53,7 @@ export default defineComponent ({
 
         <!--The last page conditionally renders content of the last 'next' button-->
         <RouterLink v-if="currentPage !== `Questions`" class="button is-success" @click="incrementPage(1); changeHeader(currentPage)" :to=nextPage >Next: {{ nextPage }}</RouterLink>
-        <RouterLink v-else class="button is-info" @click="incrementPage(1); changeHeader(`Introduction`)" to="home">Start from beginning</RouterLink>
+        <RouterLink v-else class="button is-info" @click="incrementPage(1); changeHeader(`Introduction`)" to="/">Start from beginning</RouterLink>
     </div>
 </template>
 

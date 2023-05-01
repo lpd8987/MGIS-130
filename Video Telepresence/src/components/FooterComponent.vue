@@ -22,8 +22,8 @@ export default defineComponent ({
 </script>
 
 <template>
-    <footer @click="toggleFooter()" class="navbar is-success is-fixed-bottom">
-        <div v-if="footerActive" class="navbar-item has-text-centered"  >Tyler Gazdik, Louie D'Angelo, Evan Macko</div>
+    <footer v-if="footerActive" @click="toggleFooter()" class="navbar is-success is-fixed-bottom">
+        <div class="navbar-item has-text-centered"  >Tyler Gazdik, Louie D'Angelo, Evan Macko</div>
     </footer>
 </template>
 
